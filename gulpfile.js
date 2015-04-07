@@ -144,7 +144,7 @@ gulp.task('buildhtml', function () {
     return gulp.src('app/*.html')
         .pipe(assets)
         .pipe(gulpif('*.js', uglify()))
-        .pipe(gulpif('*.css', minifyCss()))
+        .pipe(gulpif('*.css', minifyCSS()))
         .pipe(assets.restore())
         .pipe(useref())
         .pipe(gulp.dest('dist'));
