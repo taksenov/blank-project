@@ -18,7 +18,9 @@ sitebellib.ini
 /temp
 /holderjs
 /bower_components
-/static/SQLs/
+bower_components
+app/bower_components
+/test-work/app/static/SQLs/
 migrations/
 /node_modules
 
